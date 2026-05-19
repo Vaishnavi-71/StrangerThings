@@ -1,0 +1,33 @@
+.main {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:black;
+    border-bottom:2px solid red;
+    box-shadow:0 0 15px red;
+}
+
+.main h1{
+    font-family:'Cinzel',serif;
+    color:#ff1b1b;
+    letter-spacing:4px;
+    text-shadow:0 0 10px red,0 0 30px red;
+}
+
+.main ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+.main a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+}
+
+.main a:hover{
+    color:red;
+    text-shadow:0 0 10px red;
+}
